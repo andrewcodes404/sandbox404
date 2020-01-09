@@ -1,0 +1,95 @@
+/* 768px  */
+/* 992px  */
+/* 1200px */
+
+/* GLOBALS VARS*/
+:root {
+  --darkblue: #256da1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  color: darkslategray;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 26px;
+}
+h5 {
+  font-size: 24px;
+}
+h6 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.4;
+  text-decoration: none;
+  list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: coral;
+}
+
+a:hover {
+  color: gold;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+section {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0;
+}
