@@ -47,7 +47,12 @@ function serve() {
             //👇 if you are running a local dev server
             // proxy: 'sandpit404:8888/'
         },
-        notify:false
+        notify:false,
+        port: 8000,
+        ui: {
+            port: 8001
+        },
+       
     });
     watch('./index.html').on('change', browserSync.reload);
 
